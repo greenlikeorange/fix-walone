@@ -1,0 +1,27 @@
+{
+  "name": "fix-walone",
+  "version": "0.0.1",
+  "description": "Fix zero to walone as it approprate in zaw-uni font converting",
+  "main": "main.js",
+  "module": "main.es.min.js",
+  "scripts": {
+    "build-js": "browserify main.js -o main.es.js",
+    "build-min-js": "uglifyjs main.es.js -o main.es.min.js",
+    "build": "npm run build-js & npm run build-min-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenlikeorange/fix-walone.git"
+  },
+  "author": "greenlikeorange <ty@kny.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenlikeorange/fix-walone/issues"
+  },
+  "homepage": "https://github.com/greenlikeorange/fix-walone#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "uglify-js": "^3.6.0"
+  }
+}
