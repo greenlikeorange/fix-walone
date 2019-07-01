@@ -8,7 +8,7 @@
     "build-js": "browserify main.js -o main.es.js",
     "build-min-js": "uglifyjs main.es.js -o main.es.min.js",
     "build": "npm run build-js & npm run build-min-js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
