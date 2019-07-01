@@ -1,6 +1,6 @@
 {
   "name": "fix-walone",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Fix zero to walone as it approprate in zaw-uni font converting",
   "main": "main.js",
   "module": "main.es.min.js",
